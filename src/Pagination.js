@@ -60,7 +60,7 @@ const Pagination = () => {
         </tbody>
       </table>
       <div>
-        <button onClick={handlePreviousPage} disabled={currentPage === 1}>
+        <button onClick={handlePreviousPage} >
           Previous
         </button>
         <span> {currentPage} </span>
